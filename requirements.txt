@@ -1,0 +1,102 @@
+# 核心框架
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+sqlalchemy==2.0.23
+alembic==1.13.0
+
+# 数据库驱动
+psycopg2-binary==2.9.9
+redis==5.0.1
+pymongo==4.6.0
+elasticsearch==8.11.0
+
+# 消息队列
+kafka-python==2.0.2
+confluent-kafka==2.3.0
+
+# 数据处理
+pandas==2.1.4
+numpy==1.25.2
+pyarrow==14.0.1
+
+# 流处理
+pyflink==1.18.0
+
+# 批处理
+pyspark==3.5.0
+
+# 监控和日志
+prometheus-client==0.19.0
+structlog==23.2.0
+
+# 测试
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+
+# 开发工具
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# 工具库
+click==8.1.7
+python-dotenv==1.0.0
+pyyaml==6.0.1
+httpx==0.25.2
+aiofiles==23.2.1
+asyncpg==0.29.0
+
+# 加密和安全
+cryptography==41.0.8
+passlib==1.7.4
+python-jose==3.3.0
+
+# 时间处理
+python-dateutil==2.8.2
+pytz==2023.3
+
+# 图数据库
+neo4j==5.15.0
+
+# 序列化
+msgpack==1.0.7
+avro-python3==1.11.3
+
+# 网络和HTTP
+aiohttp==3.9.1
+requests==2.31.0
+
+# 数据验证
+cerberus==1.3.5
+marshmallow==3.20.1
+
+# 缓存
+aiocache==0.12.2
+
+# 配置管理
+dynaconf==3.2.4
+
+# 异步任务
+celery==5.3.4
+
+# 分布式锁
+redlock-py==1.0.8
+
+# 性能分析
+py-spy==0.3.14
+memory-profiler==0.61.0
+
+# 数据可视化
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# 机器学习（用于推荐系统）
+scikit-learn==1.3.2
+
+# 地理位置
+geopy==2.4.1
+
+# 并发处理
+asyncio-throttle==1.0.2 
